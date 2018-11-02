@@ -9,7 +9,6 @@
     <com.wapchief.likestarlibrary.like.TCHeartLayout
         android:id="@+id/heart_layout"
         android:layout_width="100dp"
-        android:background="@android:color/black"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"

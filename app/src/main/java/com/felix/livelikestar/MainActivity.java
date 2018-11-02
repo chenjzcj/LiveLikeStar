@@ -15,15 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         mHeartLayout = findViewById(R.id.heart_layout);
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            mHeartLayout.addFavor();
-        }
+        mHeartLayout.addFavor();
         return super.onTouchEvent(event);
     }
 }
